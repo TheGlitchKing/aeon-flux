@@ -1,0 +1,5 @@
+{
+  "name": "aeon-flux",
+  "version": "1.0.0",
+  "description": "Bash Loop operating mode for Claude Code - action over explanation, tight feedback loops, intelligent context preservation, and graceful subagent control"
+}

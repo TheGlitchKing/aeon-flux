@@ -16,7 +16,7 @@
         "name": "TheGlitchKing",
         "email": "theglitchking@users.noreply.github.com"
       },
-      "source": ".",
+      "source": "./plugins/aeon-flux",
       "category": "productivity"
     }
   ]
