@@ -1,23 +1,23 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "aeon-flux-marketplace",
   "version": "1.0.0",
-  "description": "Marketplace for Aeon Flux - Bash Loop operating mode for Claude Code",
+  "description": "Bash Loop operating mode for Claude Code - action over explanation, tight feedback loops, intelligent context preservation",
+  "owner": {
+    "name": "TheGlitchKing",
+    "email": "theglitchking@users.noreply.github.com"
+  },
   "plugins": [
     {
       "name": "aeon-flux",
-      "version": "1.0.0",
       "description": "Bash Loop operating mode - action over explanation, tight feedback loops, intelligent context preservation, and graceful subagent control",
-      "path": ".",
-      "keywords": [
-        "bash-loop",
-        "ralphy-loop",
-        "agent-workflow",
-        "context-management",
-        "self-correction",
-        "automation",
-        "subagent-control",
-        "checkpointing"
-      ]
+      "version": "1.0.0",
+      "author": {
+        "name": "TheGlitchKing",
+        "email": "theglitchking@users.noreply.github.com"
+      },
+      "source": ".",
+      "category": "productivity"
     }
   ]
 }
