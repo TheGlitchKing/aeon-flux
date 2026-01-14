@@ -24,21 +24,39 @@ Aeon Flux changes how Claude Code behaves:
 
 ## Installation (Easy Mode)
 
-### Step 1: Open your terminal
-
-### Step 2: Run these two commands
+### Step 1: Start Claude Code
 
 ```bash
-claude /plugin add github.com/TheGlitchKing/aeon-flux
+claude
 ```
 
-```bash
-claude /plugin install aeon-flux
+### Step 2: Add the marketplace
+
+Type this inside Claude Code (not in your regular terminal):
+
+```
+/plugin
 ```
 
-### Step 3: Done!
+Then select "Add Marketplace" and enter:
 
-The plugin is now active. Start a new Claude Code session to use it.
+```
+TheGlitchKing/aeon-flux
+```
+
+### Step 3: Install the plugin
+
+Run `/plugin` again, select "Install Plugin", and choose `aeon-flux`.
+
+### Step 4: Run setup
+
+```
+/setup
+```
+
+### Done!
+
+The plugin is now active. Bash Loop mode enabled.
 
 ---
 
@@ -53,8 +71,11 @@ git clone https://github.com/TheGlitchKing/aeon-flux.git
 # Go into the folder
 cd aeon-flux
 
-# Install locally
-claude /plugin install ./
+# Start Claude Code with the plugin directory
+claude --plugin-dir ./
+
+# Or add as a local marketplace inside Claude Code:
+# /plugin → Add Marketplace → ./path/to/aeon-flux
 ```
 
 ---
