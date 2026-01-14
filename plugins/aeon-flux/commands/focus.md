@@ -16,9 +16,9 @@ Mark information as critical for preservation across context compaction.
 ## Examples
 
 ```
-/focus Database uses PostgreSQL on port 5433
-/focus Tests require REDIS_URL environment variable
 /focus User prefers pnpm over npm
+/focus API endpoint is /api/v2/users
+/focus Deploy target is production-east
 ```
 
 ## Execution
@@ -54,7 +54,7 @@ If user runs just `/focus`:
 ```
 Usage: /focus [item to preserve]
 
-Example: /focus Tests require REDIS_URL set
+Example: /focus User prefers TypeScript over JavaScript
 
 Current focus items:
 [list existing items or "None"]

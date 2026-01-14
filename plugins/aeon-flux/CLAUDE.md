@@ -60,9 +60,9 @@ When information MUST survive context compaction, wrap it:
 
 ```markdown
 <!-- ATTENTION -->
-Critical: Database connection string is in .env.local
-Blocker: Tests fail without REDIS_URL set
-Decision: Using PostgreSQL over SQLite for production
+Critical: Config file is in .env.local
+Blocker: Build requires NODE_ENV=production
+Decision: Using TypeScript for type safety
 <!-- /ATTENTION -->
 ```
 
