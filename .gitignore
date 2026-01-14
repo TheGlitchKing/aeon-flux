@@ -1,0 +1,24 @@
+# mind-glaive local files (do not commit)
+.claude/CLAUDE.md
+.claude/archives/
+.claude/context/
+.claude/scripts/
+
+# Aeon Flux runtime state (do not commit)
+.claude/memory/attention.md
+.claude/memory/checkpoint.md
+.claude/memory/errors.md
+.claude/memory/patterns.md
+
+# Keep the memory directory structure
+!.claude/memory/.gitkeep
+
+# Keep these in version control
+!.claude/hooks.json
+!.claude/rules/
+!.claude/commands/
+!.claude/agents/
+!.claude/skills/
+
+# Abort signal files (system temp)
+/tmp/aeon-flux-abort-*
