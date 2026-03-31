@@ -1,0 +1,22 @@
+{
+  "name": "aeon-flux",
+  "displayName": "Aeon Flux",
+  "version": "1.0.0",
+  "description": "Bash Loop operating mode for Claude Code — action over explanation. Tight feedback loops, intelligent context preservation, and reliable subagent control. Claude talks less and does more.",
+  "author": {
+    "name": "TheGlitchKing",
+    "url": "https://github.com/TheGlitchKing"
+  },
+  "repository": "https://github.com/TheGlitchKing/aeon-flux",
+  "license": "MIT",
+  "type": "claude-plugin",
+  "skills": [
+    { "name": "bash-loop", "description": "Activate Bash Loop operating mode" }
+  ],
+  "requirements": {
+    "claudeCode": ">=1.0.0",
+    "bash": true
+  },
+  "tags": ["bash-loop", "action-oriented", "subagent-control", "context-preservation"],
+  "categories": ["productivity"]
+}
